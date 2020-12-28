@@ -1,0 +1,62 @@
+body {
+    margin: 5em 5em 5em 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+	display: block;
+	margin: 20px auto;
+}
+
+.disable-select {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.container > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 1%;
+    border: 2px black solid;
+    border-radius: 20%;
+    width: 2cm;
+    height: 2cm;
+    font-size: 2rem;
+}
+
+.letter {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px black solid;
+    display: block;
+    width: 80px;
+    margin: 1%;
+    color: white;
+}
+
+button {
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 20%;
+    margin: 1%;
+    width: 2cm;
+    height: 2cm;
+    font-size: 2em;
+}
